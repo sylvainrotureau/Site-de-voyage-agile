@@ -58,4 +58,38 @@ main #bandeau .card .card-element ul li {
 header #carrousel #carouselExampleCaptions .carousel-inner .carousel-item .carousel-picture {
   max-height: 50vh;
 }
+
+main #partenaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #partenaire .cercle-partenaire {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #partenaire .cercle-partenaire a img {
+  border-radius: 50%;
+  max-width: 20rem;
+  padding: 5px;
+}
 /*# sourceMappingURL=style.css.map */
