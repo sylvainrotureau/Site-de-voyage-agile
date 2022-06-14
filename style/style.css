@@ -1,0 +1,56 @@
+main #bandeau .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+}
+
+main #bandeau .card .card-element {
+  width: 30%;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+main #bandeau .card .card-element .card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main #bandeau .card .card-element ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main #bandeau .card .card-element ul li {
+  list-style-type: none;
+  padding-top: 1rem;
+}
+
+header #carrousel #carouselExampleCaptions .carousel-inner .carousel-item .carousel-picture {
+  max-height: 50vh;
+}
+
+main #partenaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main #partenaire .cercle-partenaire {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main #partenaire .cercle-partenaire a img {
+  border-radius: 50%;
+  max-width: 20rem;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */
