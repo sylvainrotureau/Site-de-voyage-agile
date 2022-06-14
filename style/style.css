@@ -9,10 +9,13 @@ main #bandeau .card {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: none;
 }
 
 main #bandeau .card .card-element {
   width: 30%;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
 }
 
 main #bandeau .card .card-element .card-header {
@@ -50,5 +53,9 @@ main #bandeau .card .card-element ul {
 main #bandeau .card .card-element ul li {
   list-style-type: none;
   padding-top: 1rem;
+}
+
+header #carrousel #carouselExampleCaptions .carousel-inner .carousel-item .carousel-picture {
+  max-height: 50vh;
 }
 /*# sourceMappingURL=style.css.map */
