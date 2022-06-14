@@ -6,6 +6,8 @@ main{
             justify-content: center;
             .card-element{
                 width: 30%;
+                border: 1px solid gainsboro;
+                border-radius: 5px;
                 .card-header{
                     display: flex;
                     flex-direction: column;
