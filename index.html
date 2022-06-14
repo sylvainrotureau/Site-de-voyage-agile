@@ -8,45 +8,40 @@
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-  integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Travel The World | Agence de tourisme à Niort</title>
   <link rel="icon" href="./images/airplane.ico">
 
 </head>
 
 <body>
-
   <header>
     <nav class="navbar fixed-top navbar-warning bg-info navbar-expand-lg sticky-top">
-
-      <div class="container-fluid ">
-
-        <a class="navbar-brand mr-5" href="#home">
-
-          <img src="./images/logo.png" alt="">
-
-        </a>
-
+      <div class="container-fluid mx-4 d-flex justify-content-around">
+        <div class="d-flex">
+          <a class="navbar-brand" href="#home">
+            <img src="./images/logo.png" class="w-75" alt="">
+          </a>
+          <div class="my-auto d-flex gap-2">
+            <a href="http://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram fs-1 text-danger"></i>
+            </a>
+            <a href="http://www.facebook.com/" target="_blank">
+              <i class="fab fa-facebook fs-1 "></i>
+            </a>
+          </div>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse col-auto"  id="navbarNav" style="flex-grow: 0 !important;">
-
+        <div class="collapse navbar-collapse col-auto" id="navbarNav" style="flex-grow: 0 !important;">
           <ul class="navbar-nav fs-4 ">
-
-            <li class="nav-item">
-              <a class="nav-link m-3 " href="#caroussel">CARROUSSEL</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link m-3 " href="#formules">FORMULES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link m-3 " href="#bandeau">BANDEAU</a>
             </li>
             <li class="nav-item">
               <a class="nav-link m-3 " href="#partenaires">PARTENAIRES</a>
@@ -54,14 +49,12 @@
             <li class="nav-item">
               <a class="nav-link m-3 " href="#footer">CONTACTS</a>
             </li>
-
           </ul>
         </div>
       </div>
-
     </nav>
 
-    <section id="carrousel" class="py-3">
+    <section id="carrousel">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -77,33 +70,33 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/Bora-Bora.jpg" class="d-block w-100 carousel-picture " alt="Bora Bora">
+            <img src="./images/Bora-Bora2.jpg" class="d-block w-100" alt="Bora Bora">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Bora Bora</h5>
+              <h4 class="bg-white text-dark rounded-top py-2">Bora Bora</h4>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/hawaii.jpg" class="d-block w-100 carousel-picture " alt="Hawaii">
+            <img src="./images/hawaii2.jpg" class="d-block w-100" alt="Hawaii">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Hawaii</h5>
+              <h4 class="bg-white text-dark rounded-top py-2">Hawaii</h4>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/tahiti.jpg" class="d-block w-100 carousel-picture " alt="Tahiti">
+            <img src="./images/tahiti2.jpg" class="d-block w-100" alt="Tahiti">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Tahiti</h5>
+              <h4 class="bg-white text-dark rounded-top py-2">Tahiti</h4>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/inde.jpg" class="d-block w-100 carousel-picture" alt="Inde">
+            <img src="./images/inde2.jpg" class="d-block w-100" alt="Inde">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Inde</h5>
+              <h4 class="bg-white text-dark rounded-top py-2">Inde</h4>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/canada.jpg" class="d-block w-100 carousel-picture " alt="Canada">
+            <img src="./images/canada2.jpg" class="d-block w-100" alt="Canada">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Canada</h5>
+              <h4 class="bg-white text-dark rounded-top py-2">Canada</h4>
             </div>
           </div>
         </div>
@@ -120,199 +113,250 @@
       </div>
     </section>
   </header>
+
   <main>
-    <section id="promo" class="bg-warning">
-      <p class="fs-3 p-3 text-center">-15% sur tous les séjours en formule premium ou excellence pour toute réservation
-        avant le 14 juin 2022</p>
+    <section id="promo" class="bg-warning py-3">
+      <p class="text-center m-0">
+        <i class="far fa-star"></i>
+        &nbsp;
+        <i class="far fa-star"></i>
+        &nbsp;
+        <i class="far fa-star"></i>
+      </p>
+      <p class="text-center m-0">
+        <span class="fs-2">-15%</span>&nbsp; sur <span class="fw-bold fs-5 fst-italic">tous les séjours</span> en
+        formule premium ou excellence pour toute réservation
+        <span class="fw-bold">avant le 14 juin 2022</span>
+      </p>
+      <p class="text-center mb-0">
+        <i class="far fa-star"></i>
+        &nbsp;
+        <i class="far fa-star"></i>
+        &nbsp;
+        <i class="far fa-star"></i>
+      </p>
     </section>
-    <section id="formules" class=" container-lg">
-      <div class="row justify-content-around g-3">
-        <div class="card col-10 col-lg4 col-xs-3" style="width: 18rem;">
-          <img
-            src="https://images.unsplash.com/photo-1530469641172-8ac15d0a7d6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2905&q=80"
-            class="card-img-top w-100 mg-thumbnail h-50 rounded img-fluid" alt="...">
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">975€<small class="text-muted fw-light fs-5">TTC</small></h1>
-            <p class="my-0">Avion + Hôtel</p>
-            <p class="fst-italic fw-bold">Repas non inclus</p>
-            <p>Idéal pour les petits budgets</p>
+
+    <section id="formules" class="text-center container-lg mb-3 pb-5">
+      <h2 class="text-info my-5">Nos formules</h2>
+
+      <div class="container px-4">
+        <div class="row g-4 pt-3 align-items-start justify-content-center">
+          <div class="col-md-6 col-lg-4 col-xxl-3">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1530469641172-8ac15d0a7d6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2905&q=80"
+                class="card-img-top w-100 mg-thumbnail h-50 rounded img-fluid" alt="...">
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">975€<small class="text-muted fw-light fs-5">TTC</small></h1>
+                <p class="my-0">Avion + Hôtel</p>
+                <p class="fst-italic fw-bold">Repas non inclus</p>
+                <p>Idéal pour les petits budgets</p>
+              </div>
+              <div class="card-footer bg-white border-white">
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">En savoir plus</button>
+              </div>
+            </div>
           </div>
-          <div class="card-footer bg-white border-white">
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">En savoir plus</button>
+
+          <div class="col-md-6 col-lg-4 col-xxl-3">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1489493585363-d69421e0edd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                class="card-img-top w-100 mg-thumbnail h-50 rounded img-fluid" alt="...">
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">1495€<small class="text-muted fw-light fs-5">TTC</small></h1>
+                <p class="my-0">Avion + Hôtel + transport</p>
+                <p class="fst-italic fw-bold">Repas et boissons inclus</p>
+                <p>Circuit de découverte de l'île</p>
+              </div>
+              <div class="card-footer bg-white border-white">
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">En savoir plus</button>
+              </div>
+
+            </div>
           </div>
-        </div>
-        <div class="card col-10 col-lg4 col-xs-3" style="width: 18rem;">
-          <img
-            src="https://images.unsplash.com/photo-1489493585363-d69421e0edd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-            class="card-img-top w-100 mg-thumbnail h-50 rounded img-fluid" alt="...">
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">1495€<small class="text-muted fw-light fs-5">TTC</small></h1>
-            <p class="my-0">Avion + Hôtel + transport</p>
-            <p class="fst-italic fw-bold">Repas et boissons inclus</p>
-            <p>Circuit de découverte de l'île</p>
-          </div>
-          <div class="card-footer bg-white border-white">
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">En savoir plus</button>
+
+          <div class="col-md-6 col-lg-4 col-xxl-3">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1625509972901-9c6c8e8d1069?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                class="card-img-top  w-100 mg-thumbnail h-50 rounded img-fluid" alt="...">
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">2495€<small class="text-muted fw-light fs-5">TTC</small></h1>
+                <p class="my-0">Avion + Hôtel + transport + extras</p>
+                <p class="fst-italic fw-bold">Repas et boissons inclus (à volonté)</p>
+                <p>Circuit, tour en bateau, découverte des coutumes locales, et autres surprises</p>
+              </div>
+              <div class="card-footer bg-white border-white">
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">En savoir plus</button>
+              </div>
+            </div>
           </div>
 
         </div>
-        <div class="card col-10 col-lg4 col-xs-3" style="width: 18rem;">
-          <img
-            src="https://images.unsplash.com/photo-1625509972901-9c6c8e8d1069?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-            class="card-img-top  w-100 mg-thumbnail h-50 rounded img-fluid" alt="...">
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">2495€<small class="text-muted fw-light fs-5">TTC</small></h1>
-            <p class="my-0">Avion + Hôtel + transport + extras</p>
-            <p class="fst-italic fw-bold">Repas et boissons inclus (à volonté)</p>
-            <p>Circuit, tour en bateau, découverte des coutumes locales, et autres surprises</p>
+    </section>
+
+    <section id="partenaire" class="py-3 my-3 bg-secondary">
+      <div>
+        <h2 class="text-info my-5 text-center">Nos partenaires</h2>
+        <div class="row gap-5 pt-3 align-items-start justify-content-center">
+          <div class="col-xs-6 col-lg-4 col-xxl-3 text-center my-auto">
+            <a href="https://www.fram.fr/" target="_blank">
+              <img src="./images/fram2.png" alt="Fram" class="rounded-circle w-50">
+            </a>
           </div>
-          <div class="card-footer bg-white border-white">
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">En savoir plus</button>
+
+          <div class="col-xs-6 col-lg-4 col-xxl-3 text-center my-auto">
+            <a href="https://www.richou-voyages.fr/accueil/" target="_blank">
+              <img src="./images/richou2.png" alt="richou" class="rounded-circle w-50">
+            </a>
           </div>
+
+          <div class="col-xs-6 col-lg-4 col-xxl-3 text-center my-auto">
+            <a href="https://www.voyage-prive.com/login/index" target="_blank">
+              <img src="./images/voyage-prive2.jpg" alt="Marmara" class="rounded-circle w-75">
+            </a>
+          </div>
+
         </div>
       </div>
-
-
     </section>
-    <section id="partenaire" class="py-3">
-      <h2 class="text-info">Nos partenaires</h2>
-      <div class="cercle-partenaire d-flex flex-wrap">
-        <a href="https://www.fram.fr/" target="_blank">
-          <img src="./images/fram.png" alt="Fram" class="rounded-circle ">
-        </a>
-        <a href="https://www.richou-voyages.fr/accueil/" target="_blank">
-          <img src="./images/richou.png" alt="richou" class="rounded-circle">
-        </a>
-        <a href="https://www.voyage-prive.com/login/index" target="_blank">
-          <img src="./images/voyage-prive.jpg" alt="Marmara" class="rounded-circle">
-        </a>
-      </div>
-    </section>
-     <section id="bandeau " class="py-3 container ">
-      <div class="row justify-content-around ">
-        <div class=" col-8 col-md-4 col-xl-3 card-element m-2 justify-content-between rounded-2 g-0">
-          <div class="card-header bg-info text-white  justify-content-between m-0 text-center">
-            <h3 class="text-center  ">Un choix parmi plus de 100 destinations</h3>
-            <i class="fa-solid fa-globe text-warning fs-2"></i>
+
+    <section id="bandeau " class="py-3 container ">
+      <div class="row g-4 pt-3 align-items-start justify-content-center">
+        <div class="col-md-6 col-lg-4 col-xxl-3">
+            <div class="card-header bg-info text-white text-center p-2">
+              <h3 class="text-center  ">Un choix parmi plus de 100 destinations</h3>
+              <i class="fa fa-globe text-warning fs-2"></i>
+            </div>
+            <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item">Des destinations sur tous les continents</li>
+              <li class="list-group-item">Adapté à tous les budgets</li>
+              <li class="list-group-item">Destinations mer, montagnes, villes ...</li>
+            </ul>
           </div>
-          <ul class="container-fluid g-0 rounded align-content-end list-group">
-            <li class="list-group-item">Des destinations sur tous les continents</li>
-            <li class="list-group-item">Adapté à tous les budgets</li>
-            <li class="list-group-item">Destinations mer, montagnes, villes ...</li>
-          </ul>
         </div>
-        <div class=" col-8 col-md-4 col-xl-3 card-element m-2 justify-content-between rounded-2 g-0">
-          <div class="card-header bg-info text-white  justify-content-between m-0 text-center">
+        <div class="col-md-6 col-lg-4 col-xxl-3">
+          <div class="card-header bg-info text-white text-center p-2">
             <h3 class="text-center  ">Annulation gratuite jusqu'à 7 jours avant</h3>
-            <i class="fa-solid fa-money-bill-1-wave text-warning fs-2"></i>
+            <i class="fas fa-money-bill text-warning fs-2"></i>
           </div>
-          <ul class="container-fluid g-0 rounded align-content-end list-group">
-            <li class="list-group-item">Garantie annulation gratuite</li>
-            <li class="list-group-item">Sans justificatifs d'annulation</li>
-            <li class="list-group-item">Modalités de remboursement simplifiées</li>
-          </ul>
-        </div>
-        <div class=" col-8 col-md-4 col-xl-3 card-element m-2 justify-content-between rounded-2 g-0">
-          <div class="card-header bg-info text-white  justify-content-between m-0 text-center">
-            <h3 class="text-center  ">30 ans d'expérience <br>   </h3>
-            <i class="fa-solid fa-medal text-warning fs-2"></i>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item">Garantie annulation gratuite</li>
+              <li class="list-group-item">Sans justificatifs d'annulation</li>
+              <li class="list-group-item">Modalités de remboursement simplifiées</li>
+            </ul>
           </div>
-          <ul class="container-fluid g-0 rounded align-content-end list-group">
-            <li class="list-group-item">Le professionnalisme à votre service</li>
-            <li class="list-group-item">Garantie sans mauvaises surprises</li>
-            <li class="list-group-item">Forte connexion avec nos partenaires</li>
-          </ul>
         </div>
+        <div class="col-md-6 col-lg-4 col-xxl-3">
+          <div class="card-header bg-info text-white text-center p-2">
+            <h3 class="text-center">30 ans d'expérience</h3>
+            <br>
+            <i class="fa fa-medal text-warning fs-2"></i>
+          </div>
+          <div class="card-body">
+            <ul class="container-fluid g-0 list-group">
+              <li class="list-group-item">Le professionnalisme à votre service</li>
+              <li class="list-group-item">Garantie sans mauvaises surprises</li>
+              <li class="list-group-item">Forte connexion avec nos partenaires</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
     </section>
-    <section id="video">j
+
+    <section id="video" class="py-3 my-3">
       <div class="embed-responsive embed-responsive-16by9 d-flex align-content-center">
-        <iframe class="embed-responsive-item m-auto " width="560" height="315" src="https://www.youtube.com/embed/e7_v9Kp2Tws"
-          title="YouTube video player" frameborder="0"
+        <iframe class="embed-responsive-item m-auto " width="560" height="315"
+          src="https://www.youtube.com/embed/e7_v9Kp2Tws" title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
     </section>
   </main>
-  <footer id="footer" class="pt-3 ">
-    
+
+  <section id="bookmap" class="my-3 py-3">
     <div class="row g-3">
+      <div class="py-3 m-auto col-10 col-md-8 col-lg-4">
+        <form action="">
+          <h2 class="text-info my-5 text-center">Réservations</h2>
+          <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Prénom" value="" required="">
+              </div>
 
-    <div class="py-3 m-auto col-10 col-md-8 col-lg-4">
-      <form action="">
-        <h4 class="mb-3">Formulaire de réservation</h4>
-        <form class="needs-validation" novalidate="">
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">Prénom</label>
-              <input type="text" class="form-control" id="firstName" placeholder="Prénom" value="" required="">
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Nom" value="" required="">
+              </div>
+
+              <div class="col-12">
+                <label for="destination" class="form-label">Destination souhaitée</label>
+                <input type="text" class="form-control" id="destination" placeholder="Destination souhaitée">
+              </div>
+
+              <div class="col-6">
+                <label for="datestart" class="form-label">Date de départ</label>
+                <input type="text" class="form-control" id="datestart" placeholder="00/00/0000">
+              </div>
+
+              <div class="col-6">
+                <label for="dateend" class="form-label">Date de retour</label>
+                <input type="text" class="form-control" id="dateend" placeholder="00/00/0000">
+              </div>
+
+              <div class="col-12">
+                <label for="destination" class="form-label">Formule souhaitée</label>
+                <input type="text" class="form-control" id="destination" placeholder="Formule souhaitée">
+              </div>
+
+              <div class="col-6">
+                <label for="nbadultes" class="form-label">Nombre d'adultes</label>
+                <input type="text" class="form-control" id="nbadultes" placeholder="nb adultes">
+              </div>
+
+              <div class="col-6">
+                <label for="nbenfants" class="form-label">Nombre d'enfants</label>
+                <input type="text" class="form-control" id="nbenfants" placeholder="nb enfants de -14 ans">
+              </div>
+
+              <button class="w-100 btn btn-lg btn-outline-primary" type="submit">Envoyer votre réservation</button>
             </div>
-
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Nom</label>
-              <input type="text" class="form-control" id="lastName" placeholder="Nom" value="" required="">
-            </div>
-
-            <div class="col-12">
-              <label for="destination" class="form-label">Destination souhaitée</label>
-              <input type="text" class="form-control" id="destination" placeholder="Destination souhaitée">
-            </div>
-
-            <div class="col-6">
-              <label for="datestart" class="form-label">Date de départ</label>
-              <input type="text" class="form-control" id="datestart" placeholder="00/00/0000">
-            </div>
-
-            <div class="col-6">
-              <label for="dateend" class="form-label">Date de retour</label>
-              <input type="text" class="form-control" id="dateend" placeholder="00/00/0000">
-            </div>
-
-            <div class="col-12">
-              <label for="destination" class="form-label">Formule souhaitée</label>
-              <input type="text" class="form-control" id="destination" placeholder="Formule souhaitée">
-            </div>
-
-            <div class="col-6">
-              <label for="nbadultes" class="form-label">Nombre d'adultes</label>
-              <input type="text" class="form-control" id="nbadultes" placeholder="nb adultes">
-            </div>
-
-            <div class="col-6">
-              <label for="nbenfants" class="form-label">Nombre d'enfants</label>
-              <input type="text" class="form-control" id="nbenfants" placeholder="nb enfants de -14 ans">
-            </div>
-
-            <button class="w-100 btn btn-primary btn-lg" type="submit">Envoyer votre réservation</button>
-          </div>
+          </form>
         </form>
-      </form>
-    </div>
+      </div>
 
-    <div id="map" class="py-3 m-auto col-10 col-md-8 col-lg-4 text-center">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.017318505438!2d-0.461834584225425!3d46.32195108381914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480731cd187d1b89%3A0xde868d1d1c3f9856!2s10%20Rue%20Rabelais%2C%2079000%20Niort!5e1!3m2!1sfr!2sfr!4v1655209101320!5m2!1sfr!2sfr"
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
-
-    </div>
-
-    <div id="social">
-
-      <div class="d-grid gap-2 d-flex justify-content-center bg-info">
-        <a class="btn border-color1 text-color2 btn-lg px-4 me-md-2" href="http://www.linkedin.com/" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a class="btn border-color1 text-color2 btn-lg px-4 me-md-2" href="http://www.facebook.com/" target="_blank">
-          <i class="fab fa-facebook"></i>
-        </a>
+      <div id="map" class="py-3 m-auto col-10 col-md-8 col-lg-4 text-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.017318505438!2d-0.461834584225425!3d46.32195108381914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480731cd187d1b89%3A0xde868d1d1c3f9856!2s10%20Rue%20Rabelais%2C%2079000%20Niort!5e1!3m2!1sfr!2sfr!4v1655209101320!5m2!1sfr!2sfr"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
 
     </div>
+  </section>
 
-    <p class="text-center bg-info fs-5 m-0">TravelWorld 10, rue Rabelais 79000 Niort </p>
+  <footer id="footer">
+    <div class="d-flex gap-2 py-3 bg-info align-content-center justify-content-center">
+      <div id="social">
+        <div class="my-auto d-flex gap-2">
+          <a href="http://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram fs-1 text-danger"></i>
+          </a>
+          <a href="http://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook fs-1 "></i>
+          </a>
+        </div>
+      </div>
+      <p class="text-center fs-5 m-0">TravelWorld 10, rue Rabelais 79000 Niort </p>
+    </div>
 
   </footer>
   <!-- JavaScript Bundle with Popper -->
