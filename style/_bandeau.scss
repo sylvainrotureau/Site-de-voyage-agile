@@ -4,8 +4,11 @@ main{
             display: flex;
             flex-direction: row;
             justify-content: center;
+            border: none;
             .card-element{
                 width: 30%;
+                border: 1px solid gainsboro;
+                border-radius: 5px;
                 .card-header{
                     display: flex;
                     flex-direction: column;
