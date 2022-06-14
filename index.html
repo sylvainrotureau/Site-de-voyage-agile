@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -19,9 +19,9 @@
 <body>
 
   <header>
-    <nav class="navbar fixed-top navbar-warning bg-info navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-warning bg-info navbar-expand-lg sticky-top">
 
-      <div class="container-fluid">
+      <div class="container-fluid ">
 
         <a class="navbar-brand mr-5" href="#home">
 
@@ -34,24 +34,24 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse col-auto"  id="navbarNav" style="flex-grow: 0 !important;">
 
-          <ul class="navbar-nav fs-4">
+          <ul class="navbar-nav fs-4 ">
 
             <li class="nav-item">
-              <a class="nav-link" href="#caroussel">CARROUSSEL</a>
+              <a class="nav-link m-3 " href="#caroussel">CARROUSSEL</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#formules">FORMULES</a>
+              <a class="nav-link m-3 " href="#formules">FORMULES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#bandeau">BANDEAU</a>
+              <a class="nav-link m-3 " href="#bandeau">BANDEAU</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#partenaires">PARTENAIRES</a>
+              <a class="nav-link m-3 " href="#partenaires">PARTENAIRES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">CONTACTS</a>
+              <a class="nav-link m-3 " href="#footer">CONTACTS</a>
             </li>
 
           </ul>
@@ -76,19 +76,19 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/Bora-Bora.jpg" class="d-block w-100 carousel-picture" alt="Bora Bora">
+            <img src="./images/Bora-Bora.jpg" class="d-block w-100 carousel-picture " alt="Bora Bora">
             <div class="carousel-caption d-none d-md-block">
               <h5>Bora Bora</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/hawaii.jpg" class="d-block w-100 carousel-picture" alt="Hawaii">
+            <img src="./images/hawaii.jpg" class="d-block w-100 carousel-picture " alt="Hawaii">
             <div class="carousel-caption d-none d-md-block">
               <h5>Hawaii</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/tahiti.jpg" class="d-block w-100 carousel-picture" alt="Tahiti">
+            <img src="./images/tahiti.jpg" class="d-block w-100 carousel-picture " alt="Tahiti">
             <div class="carousel-caption d-none d-md-block">
               <h5>Tahiti</h5>
             </div>
@@ -100,7 +100,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/canada.jpg" class="d-block w-100 carousel-picture" alt="Canada">
+            <img src="./images/canada.jpg" class="d-block w-100 carousel-picture " alt="Canada">
             <div class="carousel-caption d-none d-md-block">
               <h5>Canada</h5>
             </div>
@@ -174,7 +174,7 @@
     </section>
     <section id="partenaire" class="py-3">
       <h2 class="text-info">Nos partenaires</h2>
-      <div class="cercle-partenaire">
+      <div class="cercle-partenaire d-flex flex-wrap">
         <a href="https://www.fram.fr/" target="_blank">
           <img src="./images/fram.png" alt="Fram" class="rounded-circle ">
         </a>
@@ -186,46 +186,46 @@
         </a>
       </div>
     </section>
-    * <section id="bandeau" class="py-3">
-      <div class="card">
-        <div class="choices card-element mx-2">
-          <div class="card-header bg-info text-white">
-            <h3>Un choix parmi plus de 100 destinations</h3>
+     <section id="bandeau " class="py-3 container ">
+      <div class="row justify-content-around ">
+        <div class=" col-8 col-md-4 col-xl-3 card-element m-2 justify-content-between rounded-2 g-0">
+          <div class="card-header bg-info text-white  justify-content-between m-0 text-center">
+            <h3 class="text-center  ">Un choix parmi plus de 100 destinations</h3>
             <i class="fa-solid fa-globe text-warning fs-2"></i>
           </div>
-          <ul>
-            <li>Des destinations sur tous les continents</li>
-            <li>Adapté à tous les budgets</li>
-            <li>Destinations mer, montagnes, villes ...</li>
+          <ul class="container-fluid g-0 rounded align-content-end list-group">
+            <li class="list-group-item">Des destinations sur tous les continents</li>
+            <li class="list-group-item">Adapté à tous les budgets</li>
+            <li class="list-group-item">Destinations mer, montagnes, villes ...</li>
           </ul>
         </div>
-        <div class="refund card-element mx-2">
-          <div class="card-header bg-info text-white">
-            <h3>Annulation gratuite jusqu'à 7 jours avant</h3>
+        <div class=" col-8 col-md-4 col-xl-3 card-element m-2 justify-content-between rounded-2 g-0">
+          <div class="card-header bg-info text-white  justify-content-between m-0 text-center">
+            <h3 class="text-center  ">Annulation gratuite jusqu'à 7 jours avant</h3>
             <i class="fa-solid fa-money-bill-1-wave text-warning fs-2"></i>
           </div>
-          <ul>
-            <li>Garantie annulation gratuite</li>
-            <li>Sans justificatifs d'annulation</li>
-            <li>Modalités de remboursement simplifiées</li>
+          <ul class="container-fluid g-0 rounded align-content-end list-group">
+            <li class="list-group-item">Garantie annulation gratuite</li>
+            <li class="list-group-item">Sans justificatifs d'annulation</li>
+            <li class="list-group-item">Modalités de remboursement simplifiées</li>
           </ul>
         </div>
-        <div class="refund card-element mx-2">
-          <div class="card-header bg-info text-white">
-            <h3>30 ans d'expérience</h3>
+        <div class=" col-8 col-md-4 col-xl-3 card-element m-2 justify-content-between rounded-2 g-0">
+          <div class="card-header bg-info text-white  justify-content-between m-0 text-center">
+            <h3 class="text-center  ">30 ans d'expérience <br>   </h3>
             <i class="fa-solid fa-medal text-warning fs-2"></i>
           </div>
-          <ul>
-            <li>Le professionnalisme à votre service</li>
-            <li>Garantie sans mauvaises surprises</li>
-            <li>Forte connexion avec nos partenaires</li>
+          <ul class="container-fluid g-0 rounded align-content-end list-group">
+            <li class="list-group-item">Le professionnalisme à votre service</li>
+            <li class="list-group-item">Garantie sans mauvaises surprises</li>
+            <li class="list-group-item">Forte connexion avec nos partenaires</li>
           </ul>
         </div>
       </div>
     </section>
-    <section id="video">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/e7_v9Kp2Tws"
+    <section id="video">j
+      <div class="embed-responsive embed-responsive-16by9 d-flex align-content-center">
+        <iframe class="embed-responsive-item m-auto " width="560" height="315" src="https://www.youtube.com/embed/e7_v9Kp2Tws"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
