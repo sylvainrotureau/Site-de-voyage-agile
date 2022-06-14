@@ -9,6 +9,7 @@ main #bandeau .card {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: none;
 }
 
 main #bandeau .card .card-element {
